@@ -31,6 +31,10 @@ header {
     display: flex;
 }
 
+.flex-container {
+    display: flex;
+}
+
 .title-header {
     font-family: "Poppins", sans-serif;
 }
@@ -74,4 +78,17 @@ header {
 
 .white {
     color: white;
+}
+
+.button {
+    cursor: pointer;
+    border-radius: 20px;
+    border: 1px solid white;
+    padding: 8px 15px;
+    background: none;
+}
+
+.history {
+    background-color: #f1f5f7;
+    height: 85vh; 
 }
