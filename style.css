@@ -20,12 +20,22 @@
 }
 
 header {
-    background-color: rgba(132, 96, 246, 0.8);
+    background-image: url(img/banner-bg.jpg);
     width: 100vw;
     height: 94vh;
 }
 
-header > .container {
+.bg-purple {
+    background-color: rgba(132, 96, 246, 0.8);
+    height: 94vh;
+    display: flex;
+}
+
+.title-header {
+    font-family: "Poppins", sans-serif;
+}
+
+.bg-purple > .container {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -38,7 +48,7 @@ header > .container {
 
 .header-2nd {
     padding-top: 50px;
-    width: 55%;
+    width: 90%;
 }
 
 .header-text {
