@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    margin : 0;
+    padding: 0;
+}
+
+::before, ::after {
+    box-sizing: inherit;
+}
+
+.top-nav {
+    background-color: black;
+    height: 6vh;
+    border-bottom: 1px solid skyblue;
+}
+
+header {
+    background-color: rgba(132, 96, 246, 0.8);
+    width: 100vw;
+    height: 94vh;
+}
+
+.container {
+    width: 60%;
+
+    margin: 0 auto;
+}
+
+.header-2nd {
+    padding-top: 50px;
+    width: 55%;
+}
+
+.header-2nd  {
+    display: flex;
+    justify-content: space-between;
+}
+
