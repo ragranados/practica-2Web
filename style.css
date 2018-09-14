@@ -25,9 +25,14 @@ header {
     height: 94vh;
 }
 
+header > .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 .container {
     width: 60%;
-
     margin: 0 auto;
 }
 
@@ -36,8 +41,27 @@ header {
     width: 55%;
 }
 
+.header-text {
+    display: flex;
+    text-align: center;
+}
+
+.header-text h1 {
+    text-align: center;
+}
+
+.flex-centrar-vertical{
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
 .header-2nd  {
     display: flex;
     justify-content: space-between;
 }
 
+.white {
+    color: white;
+}
