@@ -14,6 +14,7 @@
 }
 
 .top-nav {
+    width: 100vw;
     background-color: black;
     height: 6vh;
     border-bottom: 1px solid skyblue;
@@ -27,8 +28,10 @@ header {
 
 .bg-purple {
     background-color: rgba(132, 96, 246, 0.8);
+    width: 100vw;
     height: 94vh;
     display: flex;
+    max-width: 100vw;;
 }
 
 .flex-container {
@@ -40,6 +43,7 @@ header {
 }
 
 .bg-purple > .container {
+    width: 100vw;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -52,7 +56,7 @@ header {
 
 .header-2nd {
     padding-top: 50px;
-    width: 90%;
+    width: 60%;
 }
 
 .header-text {
@@ -88,7 +92,33 @@ header {
     background: none;
 }
 
-.history {
+.history{
     background-color: #f1f5f7;
-    height: 85vh; 
+    width: 100vw;
+    height: 85vh;
+}
+
+
+
+.history {
+    padding: 5.5% 0;
+}
+
+.history h2 , .container > div > p{
+    text-align: center;
+}
+
+.history .flex-container {
+    margin-top: 9%;
+    background-color: #FFFFFF;
+    padding: 5% 10%;
+}
+
+.history-text {
+    width: 60%;
+    margin-left: 150px; 
+}
+
+.history-text h3 {
+    margin-top: 13px;
 }
