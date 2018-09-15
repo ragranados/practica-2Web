@@ -136,3 +136,17 @@ header {
 .history-text h3 {
     margin-top: 13px;
 }
+
+.section-2 {
+    width: 100vw;
+    height: 50vh;
+    background-color: #f3487f;
+}
+
+.section-2 .container {
+    background-color: yellowgreen;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 25%;
+    grid-template-rows: 50%;
+}
