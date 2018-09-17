@@ -239,8 +239,21 @@ header {
 .section-5 .form div {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
-.row-w-2 {flex: 0 0 46%}
-.row-w-10 {flex: 0 0 83%;}
+.row-w-2 {
+    width: 46.666%;
+    margin: 30px 0;
+}
+
+.row-w-10 {
+    flex: 1 0 83%;
+    height: 110px;
+}
+
+.row-w-2, .row-w-10 {
+    padding: 15px;
+}
