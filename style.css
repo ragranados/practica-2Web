@@ -24,13 +24,13 @@
 header {
     background-image: url(img/banner-bg.jpg);
     width: 100vw;
-    height: 94vh;
+    height: 987px;
 }
 
 .bg-purple {
     background-color: rgba(132, 96, 246, 0.8);
     width: 100vw;
-    height: 94vh;
+    height: 987px;
     display: flex;
     max-width: 100vw;;
 }
@@ -53,7 +53,7 @@ header {
 .container {
     width: 60%;
     margin: 0 auto;
-    min-width: 967px;
+    min-width: 1100px;
 }
 
 .header-2nd {
@@ -100,7 +100,7 @@ header {
 .history{
     background-color: #f1f5f7;
     width: 100vw;
-    height: 85vh;
+    height: 839px;
 }
 
 
@@ -140,7 +140,7 @@ header {
 
 .section-2 {
     width: 100vw;
-    height: 50vh;
+    height: 494px;
     background-color: #f3487f;
 }
 
@@ -154,9 +154,6 @@ header {
 
 .bg-gray {
     background-color: #6f7598;
-}
-
-.bg-gray {
     padding: 90px 25px;
 }
 
@@ -165,14 +162,64 @@ header {
     color: #ffffff;
 }
 
-.h-pink:hover {
-    background-color: #f3487f;
-}
-
 .h-pink i {
     display: block;
     text-align: center;
     margin-bottom: 10%;
     margin-top: 25%;
+    color: #f3487f;
 }
 
+.h-pink:hover {
+    background-color: #f3487f;
+    color: white;
+}
+
+.section-3 {
+    background-color: #ffffff;
+    width: 100vw;
+    height: 691px;
+}
+
+.row {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.section-3 .d-flex{
+    justify-content: space-around;
+}
+
+.ilustrator {
+    width: 45%;
+    padding: 8% 0;
+}
+
+.section-4 .row {
+    margin: 60px 0;
+}
+.section-4 {
+    width: 100vw;
+    height: 592px;
+    background-color: #5dd1e3;
+    padding: 1px 0;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.section-4 .bg-white {
+    flex: 1;
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.section-4 .bg-white p {
+    margin-top: 13px;
+}
