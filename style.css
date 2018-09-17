@@ -53,6 +53,7 @@ header {
 .container {
     width: 60%;
     margin: 0 auto;
+    min-width: 967px;
 }
 
 .header-2nd {
@@ -113,7 +114,7 @@ header {
 }
 
 .history .flex-container {
-    margin-top: 9%;
+    margin: 9% 0;
     background-color: #FFFFFF;
     padding: 5% 10%;
 }
@@ -144,9 +145,34 @@ header {
 }
 
 .section-2 .container {
-    background-color: yellowgreen;
+    background-color: #ffffff;
     height: 100%;
     display: grid;
-    grid-template-columns: 25%;
-    grid-template-rows: 50%;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: minmax(auto, 50%);  
 }
+
+.bg-gray {
+    background-color: #6f7598;
+}
+
+.bg-gray {
+    padding: 90px 25px;
+}
+
+.bg-gray p {
+    text-align: center;
+    color: #ffffff;
+}
+
+.h-pink:hover {
+    background-color: #f3487f;
+}
+
+.h-pink i {
+    display: block;
+    text-align: center;
+    margin-bottom: 10%;
+    margin-top: 25%;
+}
+
