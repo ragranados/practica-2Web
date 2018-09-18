@@ -232,8 +232,13 @@ header {
 }
 
 .section-5 .container {
-    background-color: yellow;
+    background-color: #ffffff
     height: 100%;
+    padding-top: 1px;
+}
+
+.section-5 .form {
+    margin-top: 80px;
 }
 
 .section-5 .form div {
@@ -256,4 +261,82 @@ header {
 
 .row-w-2, .row-w-10 {
     padding: 15px;
+}
+
+.form-tittle {
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.form-tittle h3 {
+    margin-bottom: 20px;
+}
+
+.section-6 {
+    text-align: center;
+    height: 395px;
+    width: 100vw;
+    background-color: #f9c52a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-6 .container h3 {
+    color: #FFFFFF;
+}
+
+.getstarted {
+    display: flex;
+    border-radius: 20px;
+    background-color: #ffffff;
+    width: 40%;
+    justify-content: center;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.getstarted input {
+    border: none;
+    flex: 1;
+    padding: 10px;
+}
+
+.section-7 {
+    background-color: #4e5375;
+    width: 100vw;
+    height: 45vh;
+}
+
+.section-7 {
+    padding: 45px 0;
+    color: #FFFFFF;
+}
+
+.section-7 .container > div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.section-7 .photos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 8px;
+}
+
+.section-7 p {
+    margin: 15px 0;
+}
+
+.iconsfooter {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.iconsfooter p{
+    margin: 0;
 }
